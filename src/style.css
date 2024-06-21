@@ -53,9 +53,43 @@ h1 {
   color: whitesmoke;
   border-radius: 1rem;
   border: none;
+  margin-bottom: 50px;
 }
 
 #reset-btn:hover {
   background-color: rgba(0, 0, 0, 0.791);
   cursor: pointer;
+}
+
+#new-game-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-game-btn:hover {
+  background-color: rgba(0, 0, 0, 0.791);
+  cursor: pointer;
+}
+
+#msg {
+  font-size: 5vmin;
+  margin: 15px 15px;
+  color: rgb(221, 221, 169);
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
 }
